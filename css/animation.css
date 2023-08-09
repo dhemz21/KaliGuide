@@ -30,7 +30,7 @@
     }
 }
 
-.card_section{
+/*.card_section{
     opacity: 0;
     transform: translateX(100%);
     animation: fadeSlideRight 1.3s forwards;
@@ -45,7 +45,8 @@
         transform: translateX(0);
     }
 }
-/*.incharge_section{
+*/
+.incharge_section{
     opacity: 0;
     transform: translateX(-100%);
     animation: fadeSlideLeft 1.3s forwards;
@@ -60,4 +61,4 @@
         transform: translateX(0);
     }
 }
-*/
+
