@@ -1,12 +1,12 @@
 .text_section h1{
     opacity: 0;
-    transform: translateX(100%);
-    animation: fadeSlideRight 1s forwards;
+    transform: translateX(-100%);
+    animation: fadeSlideLeft 1s forwards;
 }
-@keyframes fadeSlideRight {
+@keyframes fadeSlideLeft {
     0%{
         opacity: 0;
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
     100%{
         opacity: 1;
@@ -30,7 +30,7 @@
     }
 }
 
-/*.card_section{
+.card_section{
     opacity: 0;
     transform: translateX(100%);
     animation: fadeSlideRight 1.3s forwards;
@@ -45,7 +45,7 @@
         transform: translateX(0);
     }
 }
-*/
+
 .incharge_section{
     opacity: 0;
     transform: translateX(-100%);
