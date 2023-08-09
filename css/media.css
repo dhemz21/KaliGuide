@@ -1,0 +1,121 @@
+@media(max-width: 985px) {
+    .main__header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_section {
+        margin-top: 30px;
+        min-width: 100%;
+    }
+
+    .main__header .text_section {
+        margin-right: 0;
+    }
+
+    .mainpage__section {
+        height: 100%;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .box {
+        margin: 10px 30px;
+    }
+
+    @media(max-width: 890px) {
+        .footer__section input {
+            margin-right: 0;
+        }
+
+        .footer__section button {
+            margin-top: 10px;
+            width: 300px;
+        }
+    }
+
+    @media(max-width: 835px) {
+        .navbar ul {
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 725px) {
+    .footer__mainpage .footer__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__title h3 {
+        text-align: center;
+    }
+
+    .footer__section .footer__title {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:530px) {
+    .main__footer .footer__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__title p {
+        text-align: center;
+    }
+}
+
+@media(max-width: 470px) {
+    .footer__bottom__section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__title p {
+        text-align: center;
+    }
+
+    .footer__section .footer__link__section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 395px) {
+    .card_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        height: 150px;
+    }
+}
+
+@media(max-width: 361px) {
+    .text_section h1 {
+        font-size: 40px;
+    }
+
+    .main__footer .footer__section input {
+        width: 200px;
+    }
+
+    .main__footer .footer__section button {
+        width: 200px;
+    }
+}
